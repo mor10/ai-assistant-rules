@@ -1,0 +1,11 @@
+---
+description: Instructions for how to install and use shadcn components 
+globs: *.tsx, components/ui/**/*.*
+---
+- Use shadcn/ui components for UI components
+- Install new components using npx and calling shadcn@latest:
+```bash 
+npx shadcn@latest add button --force
+```
+- Always add the `--force` flag to ensure compatibility.
+
